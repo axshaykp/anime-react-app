@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/anime-react-app/static/css/main.6b30026f.css",
-    "main.js": "/anime-react-app/static/js/main.15ca9697.js",
+    "main.js": "/anime-react-app/static/js/main.b567b3ca.js",
     "index.html": "/anime-react-app/index.html",
     "main.6b30026f.css.map": "/anime-react-app/static/css/main.6b30026f.css.map",
-    "main.15ca9697.js.map": "/anime-react-app/static/js/main.15ca9697.js.map"
+    "main.b567b3ca.js.map": "/anime-react-app/static/js/main.b567b3ca.js.map"
   },
   "entrypoints": [
     "static/css/main.6b30026f.css",
-    "static/js/main.15ca9697.js"
+    "static/js/main.b567b3ca.js"
   ]
 }
