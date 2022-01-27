@@ -1,0 +1,38 @@
+.row{
+
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    padding: 1rem 1rem;
+
+    img{
+        margin: 0.5em;
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        transition: all .2s ease-in-out;
+        border-radius: 1rem;
+
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 25px #ff8400;
+        }
+    }
+
+    p{
+        margin: 0.5em;
+    }
+}
+
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+}
+
+
+.trendingTitle{
+    margin: 1rem;
+    text-align: center;
+}

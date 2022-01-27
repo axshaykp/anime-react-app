@@ -1,0 +1,41 @@
+.overview{
+	margin: 2rem;
+	max-width: 95%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+	.overTrailer{
+		background-color: blue;
+    	text-decoration: none;
+    	color: white;
+    	padding: 0.5rem;
+    	border-radius: 0.2rem;
+    	&:hover{
+        background-color: #ff8400;
+    	}
+	}
+
+	*{
+		margin: 0.2rem auto;
+	}
+
+	img{
+		max-height: 450px;
+	}
+}
+
+.overLogo{
+	text-decoration: none;
+	color: white;
+}
+
+.desc{
+	max-width: 60%;
+}
+
+@media (max-width: 599px) {
+	.desc{
+		max-width: 98%;
+	}
+}
